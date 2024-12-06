@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.container-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.heading-table th {
+    background-color: #00a8e8;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.container-table td, .container-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.container-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container-table tr:hover {
+    background-color: #ddd;
+}
+
+.container-table img {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-table .edit-btn,
+.container-table .hapus-btn {
+    padding: 6px 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container-table .edit-btn {
+    background-color: #00a8e8;
+}
+
+.container-table .hapus-btn {
+    background-color: #ff4d4d;
+}
+
+th.th, td {
+    text-align: center;
+}
