@@ -37,8 +37,8 @@ $result = mysqli_query($conn, $sql);
                         <td><?= $row['stok'];?></td>
                         <td><?= $row['id_barang'];?></td>
                         <td>
-                            <a href="ubah.php"><button>Edit</button></a>
-                            <a href="hapus.php"><button>Hapus</button></a>
+                            <a href="ubah.php"?id=<?php echo $row['id_barang'];?>"><button>Edit</button></a>
+                            <a href="hapus.php"?id=<?php echo $row['id_barang'];?>">><button>Hapus</button></a>
                         </td>
                     </tr>
                     <?php endwhile; else: ?>
